@@ -224,7 +224,7 @@
         </div>
     </div>
 {:catch error}
-    <div class="information">
+    <div class="information" style="color: var(--basic-font-color);">
        @{ $username } does not exist!
     </div>
 {/await}

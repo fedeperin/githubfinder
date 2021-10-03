@@ -1,6 +1,6 @@
 <script>
     let root = document.documentElement
-    let theme = localStorage.getItem('theme') ? localStorage.getItem('theme') : 'dark'
+    let theme = localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light'
     
     const lightTheme = () => {
         root.style.setProperty('--background', '#141c2f')
