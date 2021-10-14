@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+	--background: #141c2f;
+	--basic-font-color: #fff;
+	--card-bg: #1f2a48;
+	--numbers-chart-bg: #141c2f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	transition: all .5s ease;
+}
+
+
+.mono {
+	font-family: 'Roboto Mono', monospace;
+}
