@@ -58,14 +58,12 @@
     }
 </style>
 
-{#if theme == 'dark'}
-    <div class="theme" on:click={ changeTheme } >
+<div class="theme" on:click={ changeTheme } >
+    {#if theme == 'dark'}
         <p class="mono">DARK</p>
         <i class='bx bxs-moon'></i>
-    </div>
-{:else}
-    <div class="theme" on:click={ changeTheme } >
+    {:else}
         <p class="mono">LIGHT</p>
         <i class='bx bxs-sun'></i>
-    </div>
-{/if}
+    {/if}
+</div>
